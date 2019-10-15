@@ -11,7 +11,10 @@ import SpriteKit
 import GameplayKit
 
 class ViewController: NSViewController {
-
+    @IBOutlet weak var startButton: NSButton!
+    @IBOutlet weak var creditsButton: NSButton!
+    @IBOutlet weak var quitButton: NSButton!
+    
     @IBOutlet var skView: SKView!
     
     override func viewDidLoad() {
